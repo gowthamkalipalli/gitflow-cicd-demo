@@ -1,0 +1,4 @@
+# Replace with your GitHub username. This person is auto-requested to review every PR.
+* @your-github-username
+/Jenkinsfile @your-github-username
+/scripts/ @your-github-username
