@@ -16,7 +16,7 @@ pipeline {
 
   environment {
     // CHANGE THIS to your Docker Hub username
-    IMAGE = 'yourdockerhubuser/gitflow-cicd-demo'
+    IMAGE = 'gowthamk4/gitflow-cicd-demo'
   }
 
   stages {
