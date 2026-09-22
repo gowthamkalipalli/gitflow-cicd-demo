@@ -7,4 +7,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends git curl \
     && rm -rf /var/lib/apt/lists/*
 
 USER jenkins
-RUN jenkins-plugin-cli --plugins git workflow-aggregator github-branch-source github credentials-binding timestamps
+RUN jenkins-plugin-cli --plugins git workflow-aggregator github-branch-source github credentials-binding
